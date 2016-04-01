@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB1128151CAEB08900DE845A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1128141CAEB08900DE845A /* main.m */; };
+		CB1128181CAEB08900DE845A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1128171CAEB08900DE845A /* AppDelegate.m */; };
+		CB11281B1CAEB08900DE845A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB11281A1CAEB08900DE845A /* FirstViewController.m */; };
+		CB1128211CAEB08900DE845A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB11281F1CAEB08900DE845A /* Main.storyboard */; };
+		CB1128231CAEB08900DE845A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1128221CAEB08900DE845A /* Assets.xcassets */; };
+		CB1128261CAEB08900DE845A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1128241CAEB08900DE845A /* LaunchScreen.storyboard */; };
+		CB1128301CAEB34B00DE845A /* LevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB11282E1CAEB34B00DE845A /* LevelCell.m */; };
+		CB1128311CAEB34B00DE845A /* LevelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB11282F1CAEB34B00DE845A /* LevelCell.xib */; };
+		CB1128351CAEB71200DE845A /* HeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1128331CAEB71200DE845A /* HeaderCell.m */; };
+		CB1128361CAEB71200DE845A /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1128341CAEB71200DE845A /* HeaderCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB1128101CAEB08900DE845A /* MultiDimensional.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiDimensional.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1128141CAEB08900DE845A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB1128161CAEB08900DE845A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB1128171CAEB08900DE845A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB1128191CAEB08900DE845A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CB11281A1CAEB08900DE845A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CB1128201CAEB08900DE845A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB1128221CAEB08900DE845A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB1128251CAEB08900DE845A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB1128271CAEB08900DE845A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB11282D1CAEB34B00DE845A /* LevelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelCell.h; sourceTree = "<group>"; };
+		CB11282E1CAEB34B00DE845A /* LevelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelCell.m; sourceTree = "<group>"; };
+		CB11282F1CAEB34B00DE845A /* LevelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelCell.xib; sourceTree = "<group>"; };
+		CB1128321CAEB71200DE845A /* HeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCell.h; sourceTree = "<group>"; };
+		CB1128331CAEB71200DE845A /* HeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCell.m; sourceTree = "<group>"; };
+		CB1128341CAEB71200DE845A /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB11280D1CAEB08800DE845A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1128071CAEB08800DE845A = {
+			isa = PBXGroup;
+			children = (
+				CB1128121CAEB08900DE845A /* MultiDimensional */,
+				CB1128111CAEB08900DE845A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB1128111CAEB08900DE845A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB1128101CAEB08900DE845A /* MultiDimensional.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1128121CAEB08900DE845A /* MultiDimensional */ = {
+			isa = PBXGroup;
+			children = (
+				CB1128161CAEB08900DE845A /* AppDelegate.h */,
+				CB1128171CAEB08900DE845A /* AppDelegate.m */,
+				CB1128191CAEB08900DE845A /* FirstViewController.h */,
+				CB11281A1CAEB08900DE845A /* FirstViewController.m */,
+				CB11281F1CAEB08900DE845A /* Main.storyboard */,
+				CB1128221CAEB08900DE845A /* Assets.xcassets */,
+				CB1128241CAEB08900DE845A /* LaunchScreen.storyboard */,
+				CB1128271CAEB08900DE845A /* Info.plist */,
+				CB1128131CAEB08900DE845A /* Supporting Files */,
+				CB11282D1CAEB34B00DE845A /* LevelCell.h */,
+				CB11282E1CAEB34B00DE845A /* LevelCell.m */,
+				CB11282F1CAEB34B00DE845A /* LevelCell.xib */,
+				CB1128321CAEB71200DE845A /* HeaderCell.h */,
+				CB1128331CAEB71200DE845A /* HeaderCell.m */,
+				CB1128341CAEB71200DE845A /* HeaderCell.xib */,
+			);
+			path = MultiDimensional;
+			sourceTree = "<group>";
+		};
+		CB1128131CAEB08900DE845A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1128141CAEB08900DE845A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB11280F1CAEB08800DE845A /* MultiDimensional */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB11282A1CAEB08900DE845A /* Build configuration list for PBXNativeTarget "MultiDimensional" */;
+			buildPhases = (
+				CB11280C1CAEB08800DE845A /* Sources */,
+				CB11280D1CAEB08800DE845A /* Frameworks */,
+				CB11280E1CAEB08800DE845A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiDimensional;
+			productName = MultiDimensional;
+			productReference = CB1128101CAEB08900DE845A /* MultiDimensional.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB1128081CAEB08800DE845A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hot Dang Interactive";
+				TargetAttributes = {
+					CB11280F1CAEB08800DE845A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CB11280B1CAEB08800DE845A /* Build configuration list for PBXProject "MultiDimensional" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB1128071CAEB08800DE845A;
+			productRefGroup = CB1128111CAEB08900DE845A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB11280F1CAEB08800DE845A /* MultiDimensional */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB11280E1CAEB08800DE845A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1128361CAEB71200DE845A /* HeaderCell.xib in Resources */,
+				CB1128261CAEB08900DE845A /* LaunchScreen.storyboard in Resources */,
+				CB1128231CAEB08900DE845A /* Assets.xcassets in Resources */,
+				CB1128311CAEB34B00DE845A /* LevelCell.xib in Resources */,
+				CB1128211CAEB08900DE845A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB11280C1CAEB08800DE845A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1128301CAEB34B00DE845A /* LevelCell.m in Sources */,
+				CB1128181CAEB08900DE845A /* AppDelegate.m in Sources */,
+				CB11281B1CAEB08900DE845A /* FirstViewController.m in Sources */,
+				CB1128351CAEB71200DE845A /* HeaderCell.m in Sources */,
+				CB1128151CAEB08900DE845A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB11281F1CAEB08900DE845A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1128201CAEB08900DE845A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB1128241CAEB08900DE845A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1128251CAEB08900DE845A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB1128281CAEB08900DE845A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB1128291CAEB08900DE845A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB11282B1CAEB08900DE845A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiDimensional/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.hotdang.MultiDimensional;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB11282C1CAEB08900DE845A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiDimensional/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.hotdang.MultiDimensional;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB11280B1CAEB08800DE845A /* Build configuration list for PBXProject "MultiDimensional" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1128281CAEB08900DE845A /* Debug */,
+				CB1128291CAEB08900DE845A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB11282A1CAEB08900DE845A /* Build configuration list for PBXNativeTarget "MultiDimensional" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB11282B1CAEB08900DE845A /* Debug */,
+				CB11282C1CAEB08900DE845A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB1128081CAEB08800DE845A /* Project object */;
+}
